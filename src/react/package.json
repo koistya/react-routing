@@ -1,0 +1,7 @@
+{
+  "private": true,
+  "main": "./createRouter.node.js",
+  "jsnext:main": "./createRouter.node.es6.js",
+  "browser": "./createRouter.browser.js",
+  "jsnext:browser": "./createRouter.browser.es6.js"
+}

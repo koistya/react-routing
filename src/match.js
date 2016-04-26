@@ -18,7 +18,7 @@ async function match(routes, pathOrContext) {
   let value;
   let done = false;
 
-  const errorRoute = root.children.find(x => x.path === '/error');
+  const errorRoute = root.children && root.children.find(x => x.path === '/error');
   const matches = matchRoute(root, '', context.path);
 
   async function next() {
